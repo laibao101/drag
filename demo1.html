@@ -4,13 +4,18 @@
 <head>
 <meta charset="utf-8" />
 <title>drag</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
 <script src="drag.js" type="text/javascript"></script>
 <style>
 
-#div1{ width:400px;}
-#div1{height:300px;}
+#div1{ width:200px;height:200px; background:blue; position:absolute;}
 </style>
+<script>
+window.onload=function(){
+
+	drag('div1');
+
+}
+</script>
 </head>
 
 <body>
