@@ -7,7 +7,12 @@ function(id){
 		var ev = ev || event;
 		disX=ev.clientX;
 		disY=ev.clientY;
-		
+		obj.onmousemove=function(){
+			
+		}
+		obj.onnmouseup=function(){
+			obj.onmousemove=null;
+		}
 	}
 	
 }
